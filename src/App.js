@@ -8,7 +8,7 @@ const App = () => {
   const createUserHandler = (name, age) => {
     setAddUser((preveStateUser) => [
       ...preveStateUser,
-      { name: name, age: age, id: Math.floor(Math.random().toString() * 1000) },
+      { name: name, age: age, id: Math.floor(Math.random().toString() * 100) },
     ]);
   };
 
